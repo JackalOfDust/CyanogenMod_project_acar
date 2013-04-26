@@ -1,0 +1,57 @@
+#
+# system.prop for generic sdk
+#
+
+rild.libpath=/system/lib/libbrcm_ril.so
+ro.media.enc.hprof.file.format=3gp
+ro.media.enc.lprof.file.format=3gp
+ro.media.enc.hprof.codec.vid=m4v
+ro.media.enc.lprof.codec.vid=h263
+ro.media.enc.hprof.codec.aud=aac
+ro.media.enc.lprof.codec.aud=amrnb
+ro.media.enc.hprof.vid.width=352
+ro.media.enc.lprof.vid.width=176
+ro.media.enc.hprof.vid.height=288
+ro.media.enc.lprof.vid.height=144
+ro.media.enc.hprof.vid.fps=30
+ro.media.enc.lprof.vid.fps=30
+ro.media.enc.hprof.vid.bps=384000
+ro.media.enc.lprof.vid.bps=192000
+ro.media.enc.hprof.aud.bps=23450
+ro.media.enc.lprof.aud.bps=23450
+ro.media.enc.hprof.aud.ch=1
+ro.media.enc.lprof.aud.ch=1
+ro.media.enc.hprof.aud.hz=8000
+ro.media.enc.lprof.aud.hz=8000
+ro.media.cam.preview.fps=15
+ro.sf.lcd_density=160
+ro.opengles.version=131072
+debug.sf.hw=1
+dalvik.vm.heapsize=32m
+dalvik.vm.jniopts=warnonly
+#debug.sf.nobootanimation=1
+
+#For Dual-Sim BPM default setting, [0:disable] [1:enable]
+persist.sys.bpmsetting.enable=1
+#For multiplePDP default setting, [0:disable] [1:enable]
+persist.net.multiplePDP.enable=1
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+alsa.mixer.playback.master=Speaker
+alsa.mixer.capture.master=Mic
+alsa.mixer.playback.earpiece=Earpiece
+alsa.mixer.capture.earpiece=Mic
+alsa.mixer.playback.headset=Headset
+alsa.mixer.capture.headset=Mic
+alsa.mixer.playback.speaker=Speaker
+alsa.mixer.capture.speaker=Mic
+alsa.mixer.playback.bt.sco=BTHeadset
+alsa.mixer.capture.bt.sco=BTHeadset
+alsa.mixer.playback.bt.a2dp=BTHeadset
+alsa.mixer.capture.bt.a2dp=BTHeadset
+wifi.interface=wl0.1
+net.bt.name=Android
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+
